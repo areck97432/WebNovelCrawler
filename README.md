@@ -31,13 +31,13 @@ Follow these steps to get the crawler up and running on your local machine.
 **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/areck97432/WebNovelCrawler.git
 ```
 
 **2. Navigate to the Project Directory**
 
 ```bash
-cd your-repo-name
+cd WebNovelCrawler
 ```
 
 **3. Install Required Libraries**
@@ -58,7 +58,7 @@ Once the setup is complete, running the crawler is simple.
 Execute the main Python file from your terminal:
 
 ```bash
-python webcrawler_v3.py
+python crawler.py
 ```
 
 **2. Follow the Prompts**
@@ -97,7 +97,7 @@ Waiting for 2 seconds before the next request...
 The script will generate a clean folder and file structure for your downloaded novels, making them easy to manage.
 
 ```text
-your-repo-name/
+WebNovelCrawler/
 │
 ├── Books/
 │   │
@@ -111,7 +111,7 @@ your-repo-name/
 │       ├── blood-ascension-chapter-51-zn.txt
 │       └── ...
 │
-├── webcrawler_v3.py
+├── crawler.py
 ├── requirements.txt
 └── README.md
 ```
